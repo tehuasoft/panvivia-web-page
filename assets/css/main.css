@@ -500,9 +500,9 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: 'Fauna One', serif;
+  		font-size: 16px;
 		font-weight: 300;
-		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.025em;
@@ -2321,6 +2321,8 @@ input, select, textarea {
 }
 .header-color{
 	color: #433727;
+	font-family: Cinzel, serif;
+  	font-size: 46px;
 }
 .text-color {
 	color: #251D13;
