@@ -2256,7 +2256,7 @@ input, select, textarea {
 	#one {
 		background: url("images/overlay.png"), url("../../images/one.png");
 		background-color: rgba(218, 183, 137, 0.6);
-		 background-blend-mode: lighten;
+		background-blend-mode: lighten;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2267,7 +2267,7 @@ input, select, textarea {
 	#two {
 		background: url("images/overlay.png"), url("../../images/two.png");
 		background-color: rgba(218, 183, 137, 0.6);
-		 background-blend-mode: lighten;
+		background-blend-mode: lighten;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
