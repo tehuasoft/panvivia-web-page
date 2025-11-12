@@ -2316,6 +2316,14 @@ input, select, textarea {
 		}
 
 /* Custom classes*/
+.copyright {
+  width: 100%;
+  margin: 2.5em 0 2em 0;
+  font-size: 0.5em;
+  text-align: right;
+  color: #888;
+  opacity: 0.7;
+}
 .background-colors-divs{
 	background-color: #F8EFE7;
 }
