@@ -160,25 +160,6 @@
 					</ul>
 				</form>
 			</div>
-
-			<script>
-function sendWhatsAppMessage() {
-    // Get the phone number (replace with your actual number)
-    const phoneNumber = "50254455576"; // Replace with your number in international format (no +, no spaces)
-    
-    // Get the message from the textarea
-    const message = document.getElementById('message').value;
-    
-    // Encode the message for URL (handles spaces, special characters, etc.)
-    const encodedMessage = encodeURIComponent(message);
-    
-    // Construct the WhatsApp URL
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    
-    // Open the URL in a new tab/window
-    window.open(whatsappURL, '_blank');
-}
-</script>
 		</section>
 
 		<!-- Footer -->
@@ -223,6 +204,15 @@ function sendWhatsAppMessage() {
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+		function sendWhatsAppMessage() {
+			const phoneNumber = "50254455576";
+			const message = document.getElementById('message').value;
+			const encodedMessage = encodeURIComponent(message);
+			const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+			window.open(whatsappURL, '_blank');
+}
+</script>
 
 	</body>
 
