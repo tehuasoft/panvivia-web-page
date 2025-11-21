@@ -980,6 +980,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			padding: 10px;
 			display: block;
 			width: 100%;
 		}
