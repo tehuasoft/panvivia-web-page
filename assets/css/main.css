@@ -2336,3 +2336,43 @@ input, select, textarea {
 .text-color {
 	color: #251D13;
 }
+
+.main-title::after{
+	content: "Hogar";
+	color: #433727;
+	font-family: Cinzel, serif;
+  	font-size: 1.25em;
+	line-height: 1em;
+	animation: letters 50s infinite;
+}
+
+@keyframes letters {
+  0%, 20% {
+    content: "Hogar";
+    opacity: 1;
+  }
+  21%, 24% {
+    opacity: 0;
+  }
+  25%, 45% {
+    content: "Familia";
+    opacity: 1;
+  }
+  46%, 49% {
+    opacity: 0;
+  }
+  50%, 70% {
+    content: "Amor";
+    opacity: 1;
+  }
+  71%, 74% {
+    opacity: 0;
+  }
+  75%, 95% {
+    content: "Recuerdos";
+    opacity: 1;
+  }
+  96%, 100% {
+    opacity: 0;
+  }
+}
