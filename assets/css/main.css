@@ -2343,7 +2343,7 @@ input, select, textarea {
 	font-family: Cinzel, serif;
   	font-size: 1.25em;
 	line-height: 1em;
-	animation: letters 50s infinite;
+	animation: letters 30s infinite;
 }
 
 @keyframes letters {
@@ -2351,24 +2351,24 @@ input, select, textarea {
     content: "Hogar";
     opacity: 1;
   }
-  21%, 24% {
+  21%, 23% {
     opacity: 0;
   }
-  25%, 45% {
+  24%, 45% {
     content: "Familia";
     opacity: 1;
   }
-  46%, 49% {
+  46%, 48% {
     opacity: 0;
   }
-  50%, 70% {
+  49%, 70% {
     content: "Amor";
     opacity: 1;
   }
-  71%, 74% {
+  71%, 73% {
     opacity: 0;
   }
-  75%, 95% {
+  74%, 95% {
     content: "Recuerdos";
     opacity: 1;
   }
