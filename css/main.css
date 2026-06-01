@@ -265,6 +265,7 @@ i {
   /* Ensure full coverage */
   min-height: 100vh;
   width: 100%;
+  background-color: purple;
 }
 
 /* Prevent background issues on mobile */
