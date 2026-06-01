@@ -275,13 +275,6 @@ i {
   }
 }
 
-/* If you want parallax effect only on desktop */
-@media (min-width: 1024px) {
-  #intro {
-    background-attachment: fixed;
-  }
-}
-
 /* For retina screens */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #intro {
