@@ -1,234 +1,478 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>Panvivia - Repostería Artesanal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Fauna+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <h1>Panvivia</h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Inicio</a></li>
+          <li><a href="#one">Lo que hacemos</a></li>
+          <li><a href="#two">Quienes somos</a></li>
+          <li><a href="#work">Productos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
 
-<html>
+    <!-- Intro Section -->
+    <section id="intro" class="main style1 dark fullscreen">
+      <div class="content">
+        <header>
+          <h2 class="main-title"></h2>
+        </header>
+        <p class="animated-text">
+          Esto es <strong>Panvivia</strong>, un lugar donde puede disfrutar de
+          un sabor inigualable con una calidad incomparable.
+        </p>
+        <div class="floating-badge">
+          <span>Hecho con amor</span>
+        </div>
+      </div>
+      <div>
+        <a href="#one" class="button style2 down bouncing">⬇</a>
+      </div>
+      <div class="floating-cakes">
+        <div class="cake-1">🍰</div>
+        <div class="cake-2">🧁</div>
+        <div class="cake-3">🥧</div>
+      </div>
+    </section>
 
-	<head>
-		<title>Panvivia</title>
-		<meta charset="utf-8">
-		<meta name="viewport"
-			content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="assets/css/main.css">
-		<noscript>
-			<link rel="stylesheet" href="assets/css/noscript.css">
-		</noscript>
-		<link rel="apple-touch-icon" sizes="180x180"
-			href="./images/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32"
-			href="./images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16"
-			href="./images/favicon-16x16.png">
-		<link rel="manifest" href="./site.webmanifest">
-	</head>
+    <!-- One Section -->
+    <section id="one" class="main style2 right fullscreen">
+      <div class="content box style2 background-colors-divs">
+        <header>
+          <h2 class="header-color">Lo que hacemos</h2>
+          <div class="underline-animate"></div>
+        </header>
+        <p class="text-color">
+          Creamos lo mejor de lo mejor en repostería, desde una rebanada de
+          pastel hasta surtir su negocio con lo que necesite.
+        </p>
+        <div class="service-icons">
+          <span>🎂 Pasteles</span>
+          <span>🍪 Galletas</span>
+          <span>🥐 Panadería</span>
+          <span>🎉 Eventos</span>
+        </div>
+      </div>
+      <a href="#two" class="button style2 down anchored bouncing">Next</a>
+    </section>
 
-	<body class="is-preload">
+    <!-- Two Section -->
+    <section id="two" class="main style2 left fullscreen">
+      <div class="content box style2 background-colors-divs">
+        <header>
+          <h2 class="header-color">Quienes somos</h2>
+          <div class="underline-animate"></div>
+        </header>
+        <p class="text-color">
+          Somos una empresa que piensa que disfrutar un delicioso postre con la
+          familia es una experiencia que jamás se olvida. Es por eso que nos
+          esforzamos por entregarle algo tan delicioso que se quedará en su
+          memoria para siempre.
+        </p>
+        <div class="counter-stats">
+          <div class="stat">
+            <span class="stat-number" data-target="5">0</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="1250">0</span>
+            <span class="stat-label">Clientes felices</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="50">0</span>
+            <span class="stat-label">Productos exclusivos</span>
+          </div>
+        </div>
+      </div>
+      <a href="#work" class="button style2 down anchored bouncing">Next</a>
+    </section>
 
-		<!-- Header -->
-		<header id="header" style="background-color: #F8EFE7; color: #251D13;">
-			<h1>Panvivia</h1>
-			<nav>
-				<ul>
-					<li><a href="#intro">Intro</a></li>
-					<li><a href="#one">Lo que hacemos</a></li>
-					<li><a href="#two">Quienes somos</a></li>
-					<li><a href="#work">Nuestros productos</a></li>
-					<li><a href="#contact">Contacto</a></li>
-				</ul>
-			</nav>
-		</header>
+    <!-- Work Section -->
+    <section id="work" class="main style3 primary">
+      <div class="content">
+        <header>
+          <h2 class="header-color">Nuestros productos</h2>
+          <p class="text-color">
+            Una experiencia que comienza con la vista y termina en el corazón.
+            Todo elaborado con ingredientes selectos, dedicación y amor.
+          </p>
+        </header>
 
-		<!-- Intro -->
-		<section id="intro" class="main style1 dark fullscreen">
-			<div class="content">
-				<header>
-					<h2 class="main-title"></h2>
-				</header>
-				<p class="text-color">Esto es <strong>Pavivia</strong>, un lugar donde
-					puede disfrutar de un sabor inigualable con una calidad
-					incomparable</a>.</p>
-			<footer>
-				<a href="#one" class="button style2 down">More</a>
-			</footer>
-		</div>
-	</section>
+        <div class="gallery">
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Empanada+de+Manjar"
+                alt="Empanada de Manjar"
+              />
+              <div class="product-overlay">
+                <h4>Empanada de Manjar</h4>
+                <p class="price">Q5.00</p>
+                <button class="quick-view" data-product="Empanada de Manjar">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Pastel+de+Fresas"
+                alt="Pastel de Fresas"
+              />
+              <div class="product-overlay">
+                <h4>Pastel de Fresas con Crema</h4>
+                <p class="price">Desde Q120</p>
+                <button
+                  class="quick-view"
+                  data-product="Pastel de Fresas con Crema"
+                >
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Pastel+de+Queso"
+                alt="Pastel de Queso"
+              />
+              <div class="product-overlay">
+                <h4>Pastel de Queso</h4>
+                <p class="price">Desde Q100</p>
+                <button class="quick-view" data-product="Pastel de Queso">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Pastel+de+Banano"
+                alt="Pastel de Banano"
+              />
+              <div class="product-overlay">
+                <h4>Pastel de Banano Crocante</h4>
+                <p class="price">Desde Q110</p>
+                <button
+                  class="quick-view"
+                  data-product="Pastel de Banano Crocante"
+                >
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Pastel+de+Maíz"
+                alt="Pastel de Maíz"
+              />
+              <div class="product-overlay">
+                <h4>Pastel de Maíz Dulce</h4>
+                <p class="price">Desde Q90</p>
+                <button class="quick-view" data-product="Pastel de Maíz Dulce">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Trenza+Rellena"
+                alt="Trenza Rellena"
+              />
+              <div class="product-overlay">
+                <h4>Trenza Rellena</h4>
+                <p class="price">Q12 - Q60</p>
+                <button class="quick-view" data-product="Trenza Rellena">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Pastel+de+Coco"
+                alt="Pastel de Coco"
+              />
+              <div class="product-overlay">
+                <h4>Pastel de Coco Relleno</h4>
+                <p class="price">Desde Q130</p>
+                <button
+                  class="quick-view"
+                  data-product="Pastel de Coco Relleno"
+                >
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="image fit">
+              <img
+                src="https://placehold.co/400x300/F8EFE7/433727?text=Galletas+Artesanales"
+                alt="Galletas Artesanales"
+              />
+              <div class="product-overlay">
+                <h4>Galletas Artesanales</h4>
+                <p class="price">Desde Q25</p>
+                <button class="quick-view" data-product="Galletas Artesanales">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
 
-	<!-- One -->
-	<section id="one" class="main style2 right dark fullscreen">
-		<div class="content box style2 background-colors-divs">
-			<header>
-				<h2 class="header-color">Lo que hacemos</h2>
-			</header>
-			<p class="text-color">Creamos lo mejor de lo mejor en reposteria, desde una
-				rebanada de pastel hasta
-				surtir su negocio con lo que necesite.
-			</p>
-		</div>
-		<a href="#two" class="button style2 down anchored">Next</a>
-	</section>
+        <div class="view-all-container">
+          <button class="view-all-btn">Ver todos los productos →</button>
+        </div>
+      </div>
+    </section>
 
-	<!-- Two -->
-	<section id="two" class="main style2 left dark fullscreen">
-		<div class="content box style2 background-colors-divs">
-			<header>
-				<h2 class="header-color">Quienes somos</h2>
-			</header>
-			<p class="text-color">Somos una empresa que piensa que disfrutar un delicioso
-				postre con la familia
-				es una experiencia que jamás se olvida. Es por eso que nos esforzamos por
-				entregarle algo tan delicioso que se quedará en su memoria para siempre.
-			</p>
-		</div>
-		<a href="#work" class="button style2 down anchored">Next</a>
-	</section>
+    <!-- Contact Section -->
+    <section id="contact" class="main style3 secondary">
+      <div class="content">
+        <header>
+          <h2 class="header-color">¡Cuéntenos qué se le antoja!</h2>
+          <p class="text-color">
+            Únicamente trabajamos bajo pedido. El día que se vende es el día que
+            se hace. Escríbanos y con gusto tomaremos su orden. ¡Esperamos que
+            lo disfrute!
+          </p>
+        </header>
+        <div class="contact-form-wrapper">
+          <div class="contact-info-badge">
+            <span>📞 (502) 5445-5676</span>
+            <span>📍 Tehuantepec, Oaxaca</span>
+            <span>⏰ Lun-Sáb: 8am - 6pm</span>
+          </div>
+          <form id="contactForm" onsubmit="sendWhatsAppMessage(event)">
+            <div class="fields">
+              <div class="field half">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nombre completo"
+                  required
+                />
+              </div>
+              <div class="field half">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Correo electrónico"
+                  required
+                />
+              </div>
+              <div class="field">
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="¿Qué le gustaría ordenar? (producto, tamaño, cantidad, fecha de entrega)"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <ul
+              class="actions special"
+              style="list-style: none; text-align: center"
+            >
+              <li>
+                <button
+                  type="submit"
+                  class="button pulse-button"
+                  style="background: #25d366"
+                >
+                  <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+                </button>
+              </li>
+            </ul>
+          </form>
+          <div class="social-follow">
+            <p>Síguenos en redes sociales</p>
+            <div class="social-icons">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-tiktok"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- Work -->
-	<section id="work" class="main style3 primary">
-		<div class="content">
-			<header>
-				<h2 class="header-color">Nuestros productos</h2>
-				<p class="text-color">Una experiencia que comienza con la vista y termina en
-					el corazón.
-					Todo elaborado con ingredientes selectos, dedicación y amor en cada
-					detalle.
-				</p>
-			</header>
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">
+        &copy; 2025 Panvivia. Diseñado con amor para los amantes del buen
+        postre.<br />
+        Hecho por <a href="#" target="_blank">Tehuasoft</a>
+      </p>
+    </footer>
 
-			<!-- Gallery  -->
-			<div class="gallery">
-				<article class="from-left">
-					<a href="images/fulls/01.jpg" class="image fit"><img
-							src="images/thumbs/01.jpg"
-							title="Empanada de Manjar - Q5.00" alt /></a>
-				</article>
-				<article class="from-right">
-					<a href="images/fulls/02.jpg" class="image fit"><img
-							src="images/thumbs/02.jpg"
-							title="Pastel de Fresas con Crema - Precio Variable" alt /></a>
-				</article>
-				<article class="from-left">
-					<a href="images/fulls/03.jpg" class="image fit"><img
-							src="images/thumbs/03.jpg"
-							title="Pastel de queso - Precio Variable"
-							alt /></a>
-				</article>
-				<article class="from-right">
-					<a href="images/fulls/04.jpeg" class="image fit"><img
-							src="images/thumbs/04.jpeg"
-							title="Pastel de banano crocante - Precio Variable"
-							alt /></a>
-				</article>
-				<article class="from-left">
-					<a href="images/fulls/05.jpeg" class="image fit"><img
-							src="images/thumbs/05.jpeg"
-							title="Pastel de maíz dulce - Precio Variable" alt /></a>
-				</article>
-				<article class="from-right">
-					<a href="images/fulls/06.jpg" class="image fit"><img
-							src="images/thumbs/06.jpg"
-							title="Pastel de banano volteado - Precio Variable"
-							alt /></a>
-				</article>
-				<article class="from-right">
-					<a href="images/fulls/07.jpg" class="image fit"><img
-							src="images/thumbs/07.jpg"
-							title="Trenza rellena pequeña, mediana y grande - Q12.00, Q30.00 y Q60.00"
-							alt /></a>
-				</article>
-				<article class="from-right">
-					<a href="images/fulls/08.jpg" class="image fit"><img
-							src="images/thumbs/08.jpg"
-							title="Pastel de coco relleno - Precio Variable"
-							alt /></a>
-				</article>
-			</div>
+    <script>
+      // Mobile Menu Toggle
+      const menuToggle = document.getElementById("menuToggle");
+      const nav = document.querySelector("#header nav");
 
-		</div>
-	</section>
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        nav.classList.toggle("active");
+      });
 
-	<!-- Contact -->
-	<section id="contact" class="main style3 secondary">
-		<div class="content">
-			<header>
-				<h2 class="header-color">¡Cuéntenos qué se le antoja!</h2>
-				<p class="text-color">Unicamente trabajamos bajo pedido ya que no guardamos
-					producto hecho, el
-					dia que se vende es el dia que se hace.
-					Escríbanos y con gusto tomaremos su orden. ¡Esperamos que lo disfrute!
-				</p>
-			</header>
-			<div class="box">
-				<form method="post" action="#"
-					onsubmit="sendWhatsAppMessage(); return false;">
-					<div class="fields">
-						<div class="field">
-							<textarea name="message" id="message" placeholder="Mensaje"
-								rows="6"></textarea>
-						</div>
-					</div>
-					<ul class="actions special">
-						<li>
-							<button type="submit" class="button"
-								style="background: transparent; border: none; padding: 0;">
-								<img alt="Chat on WhatsApp"
-									src="./images/WhatsAppButtonGreenLarge.svg" />
-							</button>
-						</li>
-					</ul>
-				</form>
-			</div>
-		</section>
+      // Close menu when clicking a link
+      document.querySelectorAll("#header nav ul li a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.classList.remove("active");
+          nav.classList.remove("active");
+        });
+      });
 
-		<!-- Footer -->
-		<footer id="footer">
+      // Header scroll effect
+      window.addEventListener("scroll", () => {
+        const header = document.getElementById("header");
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
 
-			<!-- Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-facebook-f"><span
-							class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-instagram"><span
-							class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands fa-tiktok"><span
-							class="label">TikTok</span></a></li>
-			</ul>
+      // Animated Counter Stats
+      const observerOptions = { threshold: 0.5 };
+      const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const counters = entry.target.querySelectorAll(".stat-number");
+            counters.forEach((counter) => {
+              const target = parseInt(counter.getAttribute("data-target"));
+              let current = 0;
+              const increment = target / 50;
+              const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+                  counter.textContent = Math.ceil(current);
+                  requestAnimationFrame(updateCounter);
+                } else {
+                  counter.textContent = target;
+                }
+              };
+              updateCounter();
+            });
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
 
-			<!-- Copyright -->
-			<ul class="menu">
-				<p class="copyright">
-					&copy; 2025 Panvivia. This page is an adaptation of "Big Picture" by
-					<a href="https://twitter.com/ajlkn" target="_blank">ajlkn</a> the
-					original work is available at
-					<a href="https://html5up.net/big-picture" target="_blank">HTML5 UP</a>.
-					<br />
-					It is licensed under a
-					<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"
-						target="_blank">Creative Commons
-						Attribution 3.0 Unported
-						License</a>. <br />
-					This version was modified by &copy; <a href="https://tehuasoft.lat"
-						target="_blank">Tehuasoft</a>.
-				</p>
-			</ul>
+      const statsSection = document.querySelector(".counter-stats");
+      if (statsSection) counterObserver.observe(statsSection);
 
-		</footer>
+      // Quick View Buttons
+      document.querySelectorAll(".quick-view").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const product = btn.getAttribute("data-product");
+          alert(
+            `✨ ${product}\n\nPara más información y disponibilidad, contáctanos por WhatsApp.\n¡Estaremos encantados de atenderte! ✨`,
+          );
+        });
+      });
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-		<script>
-		function sendWhatsAppMessage() {
-			const phoneNumber = "50254455576";
-			const message = document.getElementById('message').value;
-			const encodedMessage = encodeURIComponent(message);
-			const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-			window.open(whatsappURL, '_blank');
-}
-</script>
+      // View All Products Button
+      const viewAllBtn = document.querySelector(".view-all-btn");
+      if (viewAllBtn) {
+        viewAllBtn.addEventListener("click", () => {
+          alert(
+            "🎂 ¡Descubre toda nuestra selección de productos!\n\nContáctanos para ver nuestro catálogo completo con precios actualizados y opciones para eventos especiales.\n\n📞 WhatsApp: (502) 5445-5676",
+          );
+        });
+      }
 
-	</body>
+      // WhatsApp Integration
+      function sendWhatsAppMessage(event) {
+        event.preventDefault();
+        const phoneNumber = "50254455576";
+        const name = document.getElementById("name")?.value || "";
+        const email = document.getElementById("email")?.value || "";
+        const message = document.getElementById("message").value;
 
+        let fullMessage = `*Nuevo pedido de Panvivia*\n\n`;
+        if (name) fullMessage += `*Nombre:* ${name}\n`;
+        if (email) fullMessage += `*Correo:* ${email}\n`;
+        fullMessage += `*Pedido:* ${message}`;
+
+        const encodedMessage = encodeURIComponent(fullMessage);
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        window.open(whatsappURL, "_blank");
+      }
+
+      // Fade in elements on scroll
+      const fadeElements = document.querySelectorAll(".box, .product-card");
+      const fadeObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("fade-in-up");
+              fadeObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.2 },
+      );
+
+      fadeElements.forEach((el) => fadeObserver.observe(el));
+
+      // Smooth scroll for all anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const href = this.getAttribute("href");
+          if (href === "#") return;
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+
+      // Remove preload class
+      document.body.classList.remove("is-preload");
+    </script>
+  </body>
 </html>
