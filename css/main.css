@@ -254,7 +254,7 @@ i {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: scroll; /* 'fixed' removed for mobile */
+  background-attachment: fixed;
 
   overflow: hidden;
   position: relative;
@@ -268,7 +268,7 @@ i {
 /* Prevent background issues on mobile */
 @media (max-width: 768px) {
   #intro {
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: 70% center; /* Adjust based on your image focus */
   }
 }
@@ -276,7 +276,7 @@ i {
 /* For retina screens */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #intro {
-    background-image: url(../../images/intro@2x.jpg);
+    background-image: url(../images/intro@2x.jpg);
   }
 }
 
