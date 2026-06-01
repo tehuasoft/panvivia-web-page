@@ -451,6 +451,19 @@ i {
   animation-duration: 11s;
   animation-delay: 8s;
 }
+.cake-7 {
+  top: 80%;
+  left: 60%;
+  animation-duration: 19s;
+  animation-delay: 4s;
+}
+
+.cake-8 {
+  top: 25%;
+  left: 40%;
+  animation-duration: 17s;
+  animation-delay: 6s;
+}
 
 @keyframes floatRandom {
   0% {
