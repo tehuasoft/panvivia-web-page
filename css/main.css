@@ -247,9 +247,6 @@ i {
 
 /* ---------- INTRO SECTION ---------- */
 #intro {
-  /* Fallback solid color while image loads */
-  background-color: #f8efe7;
-
   /* Background image */
   background-image: url(../images/intro.jpg);
 
