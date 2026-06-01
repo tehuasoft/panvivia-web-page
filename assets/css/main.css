@@ -402,7 +402,7 @@ i {
 /* Floating Cakes Background */
 .floating-cakes {
   position: absolute;
-  top: 100px;
+  top: 125px;
   left: 0;
   width: 100%;
   pointer-events: none;
