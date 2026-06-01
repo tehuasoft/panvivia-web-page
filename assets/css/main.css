@@ -271,7 +271,7 @@ i {
 @media (max-width: 768px) {
   #intro {
     background-attachment: scroll;
-    background-position: 50% center; /* Adjust based on your image focus */
+    background-position: 70% center; /* Adjust based on your image focus */
   }
 }
 
