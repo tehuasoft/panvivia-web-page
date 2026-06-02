@@ -297,6 +297,108 @@ i {
   z-index: 1;
 }
 
+#first-section {
+  /* Background image */
+  background-image: url(../images/one.jpg);
+
+  /* Background properties */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  overflow: hidden;
+  position: relative;
+
+  /* Ensure full coverage */
+  min-height: 100vh;
+  width: 100%;
+  background-color: purple;
+}
+
+/* Prevent background issues on mobile */
+@media (max-width: 768px) {
+  #first-section {
+    background-attachment: fixed;
+    background-position: 50% center; /* Adjust based on your image focus */
+  }
+}
+
+/* For retina screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #first-section {
+    background-image: url(../images/one.jpg);
+  }
+}
+
+/* Dark overlay for better text readability (optional) */
+#first-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+  z-index: 0;
+}
+
+#first-section .content {
+  position: relative;
+  z-index: 1;
+}
+
+#second-section {
+  /* Background image */
+  background-image: url(../images/two.png);
+
+  /* Background properties */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  overflow: hidden;
+  position: relative;
+
+  /* Ensure full coverage */
+  min-height: 100vh;
+  width: 100%;
+  background-color: purple;
+}
+
+/* Prevent background issues on mobile */
+@media (max-width: 768px) {
+  #second-section {
+    background-attachment: fixed;
+    background-position: 50% center; /* Adjust based on your image focus */
+  }
+}
+
+/* For retina screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #second-section {
+    background-image: url(../images/two.jpg);
+  }
+}
+
+/* Dark overlay for better text readability (optional) */
+#second-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+  z-index: 0;
+}
+
+#second-section .content {
+  position: relative;
+  z-index: 1;
+}
+
 .main-title::after {
   content: "Bienvenidos";
   font-family: "Cinzel", serif;
@@ -625,8 +727,8 @@ i {
 
 .button.style2 {
   background-color: transparent;
-  border: solid 2px #433727;
-  color: #433727;
+  border: solid 2px white;
+  color: white;
 }
 
 .button.style2:hover {
